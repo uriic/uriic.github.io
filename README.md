@@ -1,1 +1,1 @@
-# ursp.github.io
+# uriic.github.io
