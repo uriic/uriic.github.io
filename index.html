@@ -33,46 +33,14 @@
 
     
     <script type="text/javascript">
+    document.cookie = " userstatus=undefined "
+    document.cookie = " examstatus=undefined "
+    
 
-    function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-        
-        var changed = 0 ;
-        var total = 0;
-            // Active
-            window.addEventListener('focus', function(){
-            });
-
-            // Inactive
-            window.addEventListener('blur', function(){
-                // alert("Tab Changed")
-                changed = changed +1
-                document.cookie = "changes="+changed
-                total = document.cookie.split("=")[1]
-                if(parseInt(total) == 3){
-                    // window.close();
-                    document.cookie = "status=blocked"
-                }
-            });
-
-
-
+          
 
          function reload(){
-            
+            document.cookie = "examstatus=start"
             if((document.getElementById('menu').className).includes("is-clicked")){
                 location.href = '/index.html#top';
                 $('#menu').click();
@@ -81,6 +49,7 @@
                 location.href = '/index.html#top';
             }
             $("<p>You will be redirected in <span id='counter'> 10</span> second(s).</p> ").appendTo("#reloader");
+            
          }
         
         function countdown() 
