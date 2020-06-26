@@ -1,0 +1,33 @@
+<script>
+    var myVar;    
+    function showTime(){
+        $(window).focus(function() {
+    alert("2");
+});
+
+$(window).blur(function() {
+   alert("3")
+});
+    }
+    function stopFunction(){
+        clearInterval(myVar); // stop the timer
+    }
+    $(document).ready(function(){
+        myVar = setInterval("showTime()", 1000);
+    });
+</script>
+
+
+
+// Active
+            window.addEventListener('focus', function(){
+            });
+
+            // Inactive
+            window.addEventListener('blur', function(){
+                alert("Tab Changed")
+            });
+
+
+
+

@@ -3486,7 +3486,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/nlogo.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3494,7 +3494,7 @@ input::-moz-focus-inner {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 36.5vw;
+    left: 0;
 }
 
 .s-hero__bg::after {
@@ -3811,12 +3811,34 @@ html.no-csstransitions .s-hero__content {
  * content
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content {
         max-width: 1100px;
     }
 }
 
 @media screen and (max-width: 1400px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content {
         max-width: 1000px;
     }
@@ -3833,6 +3855,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 1200px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content {
         max-width: 900px;
     }
@@ -3848,6 +3881,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 1000px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content {
         max-width: 700px;
     }
@@ -3895,6 +3939,17 @@ html.no-csstransitions .s-hero__content {
 
 @media screen and (max-width: 900px) {
     .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    /* .s-hero__bg {
         display: block;
         width: 50vw;
         height: 50vh;
@@ -3902,7 +3957,7 @@ html.no-csstransitions .s-hero__content {
         right: 0;
         bottom: auto;
         left: auto;
-    }
+    } */
     .s-hero__content {
         max-width: 600px;
     }
@@ -3915,6 +3970,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 800px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content {
         padding-bottom: 8vh;
     }
@@ -3930,6 +3996,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 700px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content h1 {
         font-size: 16rem;
     }
@@ -3942,8 +4019,19 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 600px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content h1 {
-        font-size: 28vw;
+        font-size: 25vw;
     }
     .s-hero__content-about {
         padding-right: 15vw;
@@ -3960,6 +4048,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 500px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__content h1::before {
         left: -6rem;
         bottom: .6em;
@@ -3972,6 +4071,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 400px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-header__logo {
         left: 3.2rem;
     }
@@ -3997,6 +4107,17 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 360px) {
+    .s-hero__bg {
+        background-image: url(../images/nlogo.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .s-hero__scroll {
         right: 2rem;
         -webkit-transform: rotate(90deg) translateX(-4rem) translateY(3.2rem);
@@ -4058,7 +4179,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/logoreveal.gif);
+    background-image: url(../images/ologo.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
