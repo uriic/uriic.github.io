@@ -28,6 +28,53 @@ $(window).blur(function() {
                 alert("Tab Changed")
             });
 
+................................................................................
 
+  function getCookie(cname) {
+                        var name = cname + "=";
+                        var decodedCookie = decodeURIComponent(document.cookie);
+                        var ca = decodedCookie.split(';');
+                        for(var i = 0; i <ca.length; i++) {
+                            var c = ca[i];
+                            while (c.charAt(0) == ' ') {
+                            c = c.substring(1);
+                            }
+                            if (c.indexOf(name) == 0) {
+                            return c.substring(name.length, c.length);
+                            }
+                        }
+                        return "";
+                    }
+        var extension = getCookie("extstatus"); 
+        alert(extension);
+        if(extension == "available") 
+        {
+            alert("live")
+        }     
+        else{
+            alert("not live")
+        } 
+
+
+
+        ..........................................................................
+          
+          var changed = 0 ;
+          var total = 0;
+              // Active
+              window.addEventListener('focus', function(){
+              });
+  
+              // Inactive
+              window.addEventListener('blur', function(){
+                  // alert("Tab Changed")
+                  changed = changed +1
+                  document.cookie = "changes="+changed
+                  total = document.cookie.split("=")[1]
+                  if(parseInt(total) == 3){
+                      // window.close();
+                      document.cookie = "status=blocked"
+                  }
+              });
 
 
